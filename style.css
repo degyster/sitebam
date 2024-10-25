@@ -1,0 +1,267 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('https://images.wallpaperscraft.ru/image/single/trava_gazon_zelenyj_121322_3840x2160.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+.header__title {
+    font-size: 4vw;
+}
+
+.header__subtitle {
+    font-size: 2vw;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 5vw;
+    background-color: #e8f5e9;
+    align-items: center;
+    height: 50vh;
+}
+
+.banner__image {
+    width: 50%;
+    height: 100%;
+    background-image: url('https://www.gardener.ru/gallery/parki/four_seasons_garden/2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.banner__text {
+    width: 45%;
+    padding: 2vw;
+}
+
+.banner__text h2 {
+    font-size: 3vw;
+    color: #388e3c;
+}
+
+.banner__text p {
+    font-size: 1.5vw;
+    color: #6d6d6d;
+}
+
+.articles {
+    padding: 5vh 5vw;
+    background-color: #fff;
+}
+
+.articles__title {
+    font-size: 3vw;
+    color: #388e3c;
+    margin-bottom: 3vh;
+}
+
+.articles__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.article-card {
+    width: 30%;
+    background-color: #e8f5e9;
+    padding: 2vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+}
+
+.article-card__image {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.article-card__title {
+    font-size: 2vw;
+    margin: 2vh 0;
+}
+
+.article-card__text {
+    font-size: 1.2vw;
+    color: #6d6d6d;
+}
+
+.newsletter {
+    padding: 5vh 5vw;
+    background-color: #2e7d32;
+    color: #fff;
+    text-align: center;
+}
+
+.newsletter__title {
+    font-size: 3vw;
+    margin-bottom: 3vh;
+}
+
+.newsletter__form {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.newsletter__input {
+    padding: 1vw;
+    width: 300px;
+    font-size: 1.2vw;
+}
+
+.newsletter__button {
+    padding: 1vw;
+    background-color: #66bb6a;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+
+.catalog {
+    padding: 5vh 5vw;
+    background-color: #fff;
+}
+
+.catalog__title {
+    font-size: 3vw;
+    color: #388e3c;
+    margin-bottom: 3vh;
+}
+
+.catalog__filters {
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.catalog__filter {
+    padding: 1.5vh 2vw;
+    background-color: #e8f5e9;
+    border: 1px solid #388e3c;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2vw;
+}
+
+.catalog__filter:hover {
+    background-color: #c8e6c9;
+}
+
+.catalog__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.plant-card {
+    width: 30%;
+    background-color: #f1f8e9;
+    padding: 2vw;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.plant-card:hover {
+    transform: translateY(-5px);
+}
+
+.plant-card__image {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.plant-card__title {
+    font-size: 2vw;
+    margin: 2vh 0;
+}
+
+.plant-card__description {
+    font-size: 1.2vw;
+    color: #6d6d6d;
+}
+
+.contacts {
+    padding: 5vh 5vw;
+    background-color: #e8f5e9;
+}
+
+.contacts__title {
+    font-size: 3vw;
+    color: #388e3c;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    gap: 2vh;
+}
+
+.contacts__label {
+    font-size: 1.5vw;
+}
+
+.contacts__input,
+.contacts__textarea {
+    padding: 1.5vh;
+    font-size: 1.2vw;
+    border: 1px solid #388e3c;
+}
+
+.contacts__button {
+    padding: 1.5vh;
+    background-color: #388e3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5vw;
+}
+
+.contacts__info {
+    text-align: center;
+    margin-top: 3vh;
+    font-size: 1.2vw;
+}
+
+.footer {
+    background-color: #2e7d32;
+    padding: 5vh 0;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2vw;
+}

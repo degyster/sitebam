@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Садоводство</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__content">
+            <h1 class="header__title">Добро пожаловать в мир садоводства</h1>
+            <p class="header__subtitle">Узнайте всё о растениях, инструментах и уходе за садом</p>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="banner__image"></div>
+        <div class="banner__text">
+            <h2>Природа и здоровье</h2>
+            <p>Советы по уходу за растениями и вашим садом</p>
+        </div>
+    </section>
+
+    <section class="articles">
+        <h2 class="articles__title">Популярные статьи</h2>
+        <div class="articles__list">
+            <article class="article-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaa2MslpwIM14oE6vWS1g83YhW43VmeXoV1g&s"  class="article-card__image">
+                <h3 class="article-card__title">Выращивание роз</h3>
+                <p class="article-card__text">Узнайте, как ухаживать за розами в вашем саду.</p>
+            </article>
+            <article class="article-card">
+                <img src="https://russad.ru/include/image/stati/%D0%9F%D0%BE%D0%B1%D0%B5%D0%BB%D0%BA%D0%B0%20%D0%B2%D0%B5%D1%81%D0%BD%D0%BE%D0%B8%CC%86%20.jpeg" class="article-card__image">
+                <h3 class="article-card__title">Уход за плодовыми деревьями</h3>
+                <p class="article-card__text">Практические советы по уходу за яблонями и грушами.</p>
+            </article>
+            <article class="article-card">
+                <img src="https://www.zolotoy-mandarin.com.ua/wp-content/uploads/2020/09/Klumby-svoimi-rukami.jpg" alt="Article 3" class="article-card__image">
+                <h3 class="article-card__title">Создание клумб</h3>
+                <p class="article-card__text">Идеи для оформления цветочных клумб и ландшафтного дизайна.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <h2 class="newsletter__title">Подпишитесь на новости</h2>
+        <form class="newsletter__form">
+            <input type="email" placeholder="Ваш email" class="newsletter__input">
+            <button type="submit" class="newsletter__button">Подписаться</button>
+        </form>
+    </section>
+
+    <section class="articles-page">
+        <h2 class="articles-page__title">Все статьи</h2>
+        <div class="articles-page__list">
+            <article class="article-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQFM91ri-7InhpmV5QVSdr0o8JRXLhgCt7JA&s" alt="Article 1" class="article-card__image">
+                <h3 class="article-card__title">Выращивание роз</h3>
+                <p class="article-card__text">Как ухаживать за розами.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <h2 class="catalog__title">Каталог растений</h2>
+        <div class="catalog__filters">
+            <button class="catalog__filter" data-filter="flowers">Цветы</button>
+            <button class="catalog__filter" data-filter="shrubs">Кустарники</button>
+            <button class="catalog__filter" data-filter="trees">Деревья</button>
+        </div>
+        <div class="catalog__list">
+            <div class="plant-card plant-card--large">
+                <img src="" alt="Flower" class="plant-card__image">
+                <h3 class="plant-card__title">Роза</h3>
+                <p class="plant-card__description">Красивый цветок, который подходит для клумб.</p>
+            </div>
+            <div class="plant-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_y8Kv7xktR8g2LraT_kmfxPE2beqid7fSIA&s" alt="Shrub" class="plant-card__image">
+                <h3 class="plant-card__title">Барбарис</h3>
+                <p class="plant-card__description">Декоративный кустарник для живой изгороди.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="contacts">
+        <h2 class="contacts__title">Контакты</h2>
+        <form class="contacts__form">
+            <label for="name" class="contacts__label">Имя</label>
+            <input type="text" id="name" class="contacts__input">
+
+            <label for="email" class="contacts__label">Email</label>
+            <input type="email" id="email" class="contacts__input">
+
+            <label for="message" class="contacts__label">Сообщение</label>
+            <textarea id="message" class="contacts__textarea"></textarea>
+
+            <button type="submit" class="contacts__button">Отправить</button>
+        </form>
+
+        <div class="contacts__info">
+            <p>Телефон</p>
+            <p>Email</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__text">Садоводство</p>
+    </footer>
+</body>
+
+</html>
